@@ -48,7 +48,7 @@ footer  {
 #map {
     min-height: 460px;
     margin:5px;
-    
+    margin-top: 5px;
     
 }
 
@@ -110,4 +110,9 @@ table {
 .results-heading {
     letter-spacing: 2px;
     font-family: 'Bai Jamjuree', sans-serif;
+}
+
+.btn-outline-dark {
+    margin-left:  45%;
+    margin-bottom: 3%;
 }
