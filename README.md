@@ -4,7 +4,8 @@ In this prjoect Iused my knowledge of Javescript,HTML and CSS to create a page t
 and hotels, resurants and attractions at their chosen holiday destination.
  
 ## UX
-    This page is primarily targeted at people who are either already at their holiday destination and want to be able to find things to do in area as well as for
+    This page is primarily targeted at people who are either already at their holiday destination and want to be able to find things to
+    do in area as well as for
     people who are trying to pick a holiday destinatio but are not sure if it is the right choice.
     My project keeps things simple for them so they are able to easily see if their destination is the right one for them 
 
