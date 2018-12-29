@@ -3,7 +3,7 @@
 }
 
 header footer {
-    background-image: url("/images/world map.jpg");
+    background-image: url("images/world map.jpg");
     background-position: top;
     background-repeat: repeat-x;
     margin-top: 0;
