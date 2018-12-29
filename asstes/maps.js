@@ -5,7 +5,7 @@ var countryRestrict = { 'country': [] };
 var MARKER_PATH = 'https://developers.google.com/maps/documentation/javascript/images/marker_green';
 var hostnameRegexp = new RegExp('^https?://.+?/');
 
-//List of properties for countries contain details about zoom, and their location on a map
+//List of properties for countries and their location on a map
 var countries = {
     'aust': {center: {lat: -26.4390917 , lng: 133.281323}, zoom: 4},
     'bel' : {center: {lat:50.5010789 , lng: 4.4764595},zoom:4},
@@ -116,8 +116,7 @@ function searchHotel() {
    clearResults();
    clearMarkers();
    document.getElementById('results-header').innerHTML = "Results";
-   // Create a marker for each hotel found, and
-   // assign a letter of the alphabetic to each marker icon.
+   
    for (var i = 0; i < results.length; i++) {
     var markerLetter = String.fromCharCode('A'.charCodeAt(0) + (i % 26));
     var markerIcon = MARKER_PATH + markerLetter + '.png';
@@ -127,8 +126,7 @@ function searchHotel() {
      animation: google.maps.Animation.DROP,
      icon: markerIcon
     });
-    // If the user clicks a hotel marker, show the details of that hotel
-    // in an info window.
+
     markers[i].placeResult = results[i];
     google.maps.event.addListener(markers[i], 'click', showInfoWindow);
     setTimeout(dropMarker(i), i * 100);
