@@ -2,13 +2,22 @@
     .col-sm-8
 }
 
-header footer {
-    background-image: url("images/world map.jpg");
+header {
+    background-image: url(/images/worldmap.jpg);
     background-position: top;
     background-repeat: repeat-x;
     margin-top: 0;
 }
 
+footer {
+    background-image: url(/images/worldmap.jpg);
+    
+}
+
+.header {
+     background-color: #78e8d7;
+    
+}
 h1 {
     text-align: center;
     font-size: 50px;
