@@ -1,6 +1,6 @@
 # Milestone Project Three
 
-In this prjoect Iused my knowledge of Javescript,HTML and CSS to create a page that helps users find 
+In this prjoect I used my knowledge of Javescript,HTML and CSS to create a page that helps users find 
 and hotels, resurants and attractions at their chosen holiday destination.
  
 ## UX
@@ -12,12 +12,10 @@ and hotels, resurants and attractions at their chosen holiday destination.
 
 ## Features
 
-  In my header and footer I have chosen to have a map as the image, I feel this easily gives users the idea what this site if intended for. 
-  I did however decide to keep the background plain and white, again this is so that users are not distracted for the main part of this page.
-  I wanted to keep the main the main display of the page so that users are able to easily view the results as well as look around the areas themselves with ease.
-  I orginially wanted to have a background image of the world map or various iconic buildings,however apon applying this I realsied it was too busy for users. 
-  and decided to stick with a simple and slick theme. 
-
+  In my header and footer I have chosen to be green, I have chose to use this colour its a neutral
+  and it also symbolises the the world map, that goes along with the sky blue background.
+  I feel this easily gives users the idea what this site if intended for.
+  
  
 ### Existing Features
 - My main feature is the search bar, which allows users to search for any location, once the have searched a location then it will 
@@ -32,10 +30,11 @@ and hotels, resurants and attractions at their chosen holiday destination.
 - Perhaps adding a currancy converter so users are able to also compare spending in various locations.
 
 ## Technologies Used
-the technologies I used to complete this project are:
+The technologies that I used to complete this project are:
 - [JQuery](https://jquery.com)
 - BOOTSTRAP
 - Google Maps API 
+- Google Fonts
 
 
 ## Testing
@@ -44,8 +43,3 @@ The inital set up for this took place on a computre running chrome, however I th
 using different screen sizes using both the chrome web developer tool and actually taking to different devices. I found throughout my testing that what working well in chrome 
 on a computer screen, did not work so well in 9.7" tablet screen. Which allowed me to go back and make revelent changes. 
 
-
-
-### Media
-- The photos used in this site were obtained from:
-- http://deltaadventure.info/world-map-wallpaper-with-countries/ 
