@@ -3,6 +3,12 @@
 }
 
 
+@media (min-width: 992px) {
+    .col-xs-12 {
+        margin-left: 15%;
+    }
+}
+/*////////////////////////////////// Header and Footer */ 
 header {
     background-color:#5e9b09;
     margin: 0;
@@ -17,6 +23,13 @@ footer {
 .background-image {
     background-color: #4f8fef;
 }
+
+
+.footer-heading {
+    padding-top: 5%;
+}
+
+/*////////////////////////////////// Text Editing*/ 
 h1 {
     text-align: center;
     padding-top: 3%;
@@ -52,10 +65,7 @@ p  {
     padding-left: 40%;
 }
 
-.footer-heading {
-    padding-top: 5%;
-}
-
+/*////////////////////////////////// Map Related*/ 
 #map {
     min-height: 460px;
     margin: 5px;
@@ -63,11 +73,6 @@ p  {
 
 }
 
-@media (min-width: 992px) {
-    .col-xs-12 {
-        margin-left: 15%;
-    }
-}
 
 .picker {
     width: 30%;
@@ -112,6 +117,9 @@ table {
     font-family: 'Bai Jamjuree', sans-serif;
 }
 
+
+
+/*////////////////////////////////// button*/ 
 .btn-outline-dark {
     margin-left: 45%;
     margin-bottom: 3%;
