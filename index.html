@@ -1,19 +1,19 @@
 <!DOCTYPE html>
 <html>
-
 <head>
   <title>Next Holiday Destination</title>
   <link rel="stylesheet" href="css/style.css">
+  <link href="https://fonts.googleapis.com/css?family=Bai+Jamjuree|Lobster" rel="stylesheet">
   <link  rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
   <script src="https://code.jquery.com/jquery-3.3.1.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60=" crossorigin="anonymous"></script>
 </head>
-<body>
+<body class="background-image">
   <header>
-      <h1> Holiday Planner</h1>
+      <h1 class="uppercase titlepage"> Holiday Planner</h1>
   </header>
   <section>
     <div class="row">
-        <button type="button" class="btn btn-outline-dark button" onclick="reset()">Start Over</button>
+        <button type="button" class="btn btn-outline-dark" onclick="reset()">Start Over</button>
       </div>
     <div class="row">
       <div class="col-xs-12 col-sm-8 col-md-8 ">
@@ -26,7 +26,6 @@
         </div>
       </div>
     </div>
-
       <div class="row">
         <input id="autocomplete" placeholder="Enter a city" type="text" class="input-boxes" />
         <div class="col-xs-12 col-sm-8 col-md-8" id="locationField">
@@ -37,11 +36,8 @@
           </form>
         </div>
       </div>
-      
-  </section>
-  <section>
-    <H1 class="uppercase"> Current Most Popular Desitnations</H1>
-    <ol class="toplist">
+    <H1 class="uppercase countrylist"> Current Most Popular Desitnations</H1>
+  <ol class="toplist uppercase">
   <li>Marrakech, Morocco</li>
   <li>Palermo, Italy</li>
   <li>Marseille, France</li>
